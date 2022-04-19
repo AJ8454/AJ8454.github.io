@@ -46292,7 +46292,7 @@ else if(s>=850&&!0)return this.d
 else return this.c}}
 A.Aw.prototype={
 J(a,b){var s=null
-return A.ac(s,A.b0(A.b([A.ah("Total Death Report",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.qb(s,s),A.ax2(A.avT(),A.b([A.awA(s,s,s,s,A.b([new A.ei("Jan",8,B.fX),new A.ei("Feb",3,B.dr),new A.ei("Mar",5,B.j9),new A.ei("Apr",10,B.fX),new A.ei("May",6,B.dr)],t.HZ),s,new A.a4B(),s,s,new A.a4C(),s,new A.a4D(),t.Kx,t.N)],t.Fw))],t.p),B.P,B.p,B.l),B.i,s,s,new A.b_(B.j,s,s,B.d_,s,s,B.y),s,s,s,s,new A.Z(16,16,16,16),s,s,s)}}
+return A.ac(s,A.b0(A.b([A.ah("Total Appointments Report",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.qb(s,s),A.ax2(A.avT(),A.b([A.awA(s,s,s,s,A.b([new A.ei("Jan",8,B.fX),new A.ei("Feb",3,B.dr),new A.ei("Mar",5,B.j9),new A.ei("Apr",10,B.fX),new A.ei("May",6,B.dr)],t.HZ),s,new A.a4B(),s,s,new A.a4C(),s,new A.a4D(),t.Kx,t.N)],t.Fw))],t.p),B.P,B.p,B.l),B.i,s,s,new A.b_(B.j,s,s,B.d_,s,s,B.y),s,s,s,s,new A.Z(16,16,16,16),s,s,s)}}
 A.a4B.prototype={
 $2(a,b){return a.c},
 $S:114}
@@ -46340,11 +46340,11 @@ A.ai6.prototype={
 $2(a,b){return new A.x2($.aza()[b],null)},
 $S:308}
 A.D2.prototype={
-J(a,b){var s,r,q,p,o,n,m,l,k=null,j="Patients",i=t.w,h=b.O(i).f,g=t.p,f=A.b([],g)
+J(a,b){var s,r,q,p,o,n,m,l,k=null,j="Doctors Details",i=t.w,h=b.O(i).f,g=t.p,f=A.b([],g)
 if(b.O(i).f.a.a<850)f.push(A.b0(A.b([A.ah(j,k,k,k,k,A.ae(k,k,B.q,k,k,k,k,k,k,k,k,17,k,B.bB,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),A.au(k,10,k),new A.ws(k)],g),B.n,B.p,B.l))
 if(!(b.O(i).f.a.a<850))f.push(A.bz(A.b([A.b1(A.ah(j,k,k,k,k,A.ae(k,k,B.q,k,k,k,k,k,k,k,k,17,k,B.bB,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),3),A.b1(new A.ws(k),5)],g),B.n,B.dp,B.l,k))
 f.push(A.au(k,10,k))
-s=A.b([new A.q5(A.ah("Patient Name",k,k,k,k,k,k,k,k)),new A.q5(A.ah("Department",k,k,k,k,k,k,k,k))],t.UR)
+s=A.b([new A.q5(A.ah("Doctor Name",k,k,k,k,k,k,k,k)),new A.q5(A.ah("Department",k,k,k,k,k,k,k,k))],t.UR)
 h=h.a.a
 r=h>1500
 if(r)s.push(new A.q5(A.ah("Appointment Date",k,k,k,k,k,k,k,k)))
@@ -46378,10 +46378,10 @@ J(a,b){var s=null,r=this.c,q=!(b.O(t.w).f.a.a<850)?54:44,p=t.p
 return A.ac(B.E,A.bz(A.b([A.qB(r.a,q,s),A.au(s,s,10),A.b0(A.b([A.ah(r.b,2,B.bG,s,!1,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.r,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.ah(""+r.c+" ",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],p),B.P,B.W,B.l)],p),B.n,B.W,B.l,s),B.i,s,s,new A.b_(B.j,s,s,B.d_,s,s,B.y),s,s,s,s,new A.Z(16,16,16,16),s,s,s)}}
 A.Nx.prototype={
 J(a,b){var s=null,r=t.p
-return A.ac(s,A.b0(A.b([A.ah("Hospital Survey",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.au(s,10,s),A.qb(s,s),A.au(s,10,s),A.ac(s,A.aWX(this.c,b),B.i,s,s,s,s,s,s,s,s,s,s,1/0),A.au(s,10,s),A.qb(s,s),A.au(s,10,s),A.bz(A.b([new A.QU(3,A.ah("Growth ($)",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s),A.b1(new A.Ss(s),1)],r),B.n,B.p,B.l,s)],r),B.P,B.p,B.l),B.i,s,s,new A.b_(B.j,s,s,B.d_,s,s,B.y),s,s,s,s,new A.Z(16,16,16,16),s,s,s)}}
+return A.ac(s,A.b0(A.b([A.ah("Hospital Survey",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.au(s,10,s),A.qb(s,s),A.au(s,10,s),A.ac(s,A.aWX(this.c,b),B.i,s,s,s,s,s,s,s,s,s,s,1/0),A.au(s,10,s),A.qb(s,s),A.au(s,10,s),A.bz(A.b([new A.QU(3,A.ah("Growth (Rs)",s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,17,s,B.bB,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s),A.b1(new A.Ss(s),1)],r),B.n,B.p,B.l,s)],r),B.P,B.p,B.l),B.i,s,s,new A.b_(B.j,s,s,B.d_,s,s,B.y),s,s,s,s,new A.Z(16,16,16,16),s,s,s)}}
 A.au_.prototype={
 $1(a){var s=null,r=J.a1(a)
-return new A.aS(B.I4,A.b0(A.b([A.ah("$ "+A.e(r.h(a,"income")),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.r,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.ah(r.h(a,"title"),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.n,B.p,B.l),s)},
+return new A.aS(B.I4,A.b0(A.b([A.ah("Rs "+A.e(r.h(a,"income")),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.r,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.ah(r.h(a,"title"),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.n,B.p,B.l),s)},
 $S:318}
 A.au0.prototype={
 $1(a){var s=null,r=J.a1(a)
@@ -46399,7 +46399,7 @@ $S:328}
 A.f2.prototype={}
 A.LV.prototype={
 J(a,b){var s=null,r=A.au(s,16,s),q=t.N,p=t.z,o=t.p
-p=A.b([new A.OO(s),A.au(s,16,s),new A.Nx(A.b([A.aE(["income",105,"title","Today's Income"],q,p),A.aE(["income",305,"title","This Week's Income"],q,p),A.aE(["income",1450,"title","This Month's Income"],q,p),A.aE(["income",8000,"title","This Year's Income"],q,p)],t.H7),s),A.au(s,20,s)],o)
+p=A.b([new A.OO(s),A.au(s,16,s),new A.Nx(A.b([A.aE(["income",305,"title","This Month's Expenses"],q,p),A.aE(["income",1450,"title","This 6 Month's Expenses"],q,p),A.aE(["income",8000,"title","This Year's Expenses"],q,p)],t.H7),s),A.au(s,20,s)],o)
 q=t.w
 if(!(b.O(q).f.a.a<850))p.push(A.bz(A.b([A.b1(new A.D2(s),6),A.au(s,s,16),A.b1(A.b0(A.b([new A.Ds(s),A.au(s,20,s),new A.Aw(s)],o),B.n,B.p,B.l),4)],o),B.n,B.p,B.l,s))
 if(b.O(q).f.a.a<850)p.push(new A.D2(s))
