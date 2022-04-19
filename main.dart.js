@@ -46385,7 +46385,7 @@ return new A.aS(B.I4,A.b0(A.b([A.ah("Rs "+A.e(r.h(a,"income")),s,s,s,s,A.ae(s,s,
 $S:318}
 A.au0.prototype={
 $1(a){var s=null,r=J.a1(a)
-return A.b0(A.b([A.ah("$ "+A.e(r.h(a,"income")),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.r,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.ah(r.h(a,"title"),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.n,B.p,B.l)},
+return A.b0(A.b([A.ah("Rs "+A.e(r.h(a,"income")),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.r,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.ah(r.h(a,"title"),s,s,s,s,A.ae(s,s,B.q,s,s,s,s,s,s,s,s,16,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.n,B.p,B.l)},
 $S:319}
 A.Ss.prototype={
 J(a,b){var s=null
@@ -46399,7 +46399,7 @@ $S:328}
 A.f2.prototype={}
 A.LV.prototype={
 J(a,b){var s=null,r=A.au(s,16,s),q=t.N,p=t.z,o=t.p
-p=A.b([new A.OO(s),A.au(s,16,s),new A.Nx(A.b([A.aE(["income",305,"title","This Month's Expenses"],q,p),A.aE(["income",1450,"title","This 6 Month's Expenses"],q,p),A.aE(["income",8000,"title","This Year's Expenses"],q,p)],t.H7),s),A.au(s,20,s)],o)
+p=A.b([new A.OO(s),A.au(s,16,s),new A.Nx(A.b([A.aE(["income",305,"title","This Month's Expenses"],q,p),A.aE(["income",1450,"title","6 Month's Expenses"],q,p),A.aE(["income",8000,"title","This Year's Expenses"],q,p)],t.H7),s),A.au(s,20,s)],o)
 q=t.w
 if(!(b.O(q).f.a.a<850))p.push(A.bz(A.b([A.b1(new A.D2(s),6),A.au(s,s,16),A.b1(A.b0(A.b([new A.Ds(s),A.au(s,20,s),new A.Aw(s)],o),B.n,B.p,B.l),4)],o),B.n,B.p,B.l,s))
 if(b.O(q).f.a.a<850)p.push(new A.D2(s))
